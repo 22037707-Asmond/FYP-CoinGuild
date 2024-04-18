@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
 
-    <div className="App">
-     <p>Text......</p>
-    </div>
-
+   <>
+   <div className="text-center">CoinGuild</div>
+   <table>
+    <th>
+      <tr>
+          Yes
+      </tr>
+    </th>
+   </table>
+   </>
   );
 }
 
