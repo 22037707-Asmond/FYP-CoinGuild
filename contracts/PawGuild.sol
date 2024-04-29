@@ -51,9 +51,7 @@ contract PawGuild {
         address owner;
         address agent;
     }
-
-
-
+    
     mapping(uint => Pet) public pets; // Array/Dictionary to store pets with their ID as keyholders to the details
     mapping(address => Owner) public owners; // Array/Dictionary to store owners with their address as keyholders to the details
     mapping(address => Agent) public agents; // Array/Dictionary to store agents with their address as keyholders to the details
