@@ -34,3 +34,14 @@ body {
     margin-top: 40px;
 }
 
+/* Login Page CSS */
+
+.container {
+   background-color: transparent;
+   border-color: black;
+   border: 1px solid black;
+   width: 500px;
+   height: 300px;
+   margin-top: 100px;
+}
+

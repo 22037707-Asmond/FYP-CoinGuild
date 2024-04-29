@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/PawGuild.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -8,21 +9,21 @@ const Navbar = () => {
             <div class="d-flex justify-content-center">
                 <nav className="navbar navbar-expand-sm ">
                     <img src="/images/PawGuild.png" style={{ width: '100px' }} />
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand">
                         <button type="button" className="btn btn-warning navbarBtn">About us</button>
-                    </a>
-                    <a className="navbar-brand" href="#">
+                    </Link>
+                    <Link className="navbar-brand">
                         <button type="button" className="btn btn-warning navbarBtn">Products</button>
-                    </a>
-                    <a className="navbar-brand" href="#">
+                    </Link>
+                    <Link className="navbar-brand">
                         <button type="button" className="btn btn-warning navbarBtn">Claims & Services</button>
-                    </a>
-                    <a className="navbar-brand" href="#">
+                    </Link>
+                    <Link className="navbar-brand">
                         <button type="button" className="btn btn-warning navbarBtn">Work with us</button>
-                    </a>
-                    <a className="navbar-brand" href="#">
+                    </Link>
+                    <Link to="/login" className="navbar-brand">
                         <button type="button" className="btn btn-warning navbarBtn">Sign In</button>
-                    </a>
+                    </Link>
 
                 </nav>
             </div>
