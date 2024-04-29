@@ -1,18 +1,22 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Router, Route, Routes} from 'react-router-dom';
+import Homepage from './pages/Homepage';
+
 
 function App() {
   return (
 
    <>
-   <div className="text-center">CoinGuild</div>
-   <table>
-    <th>
-      <tr>
-          Yes
-      </tr>
-    </th>
-   </table>
+
+    <Routes>
+      <Route path='/' element={<Homepage/>} />
+      {/* <Route path='/aboutus' element={<AboutUs/>} />
+      <Route path='/products' element={<Products/>} />
+      <Route path='/workwithus' element={<WorkwUs/>} />
+      <Route path='/login' element={<Login/>} /> */}
+    </Routes>
+
+    
    </>
   );
 }

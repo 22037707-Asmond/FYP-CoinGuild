@@ -1,0 +1,36 @@
+/* Body CSS - Color of all Web Pages */
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: #EBEAE5; 
+    font-family: 'Arial', sans-serif; 
+  }
+
+/* Navigation Bar CSS */
+.navbarBtn {
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.navbarBtn:hover {
+   opacity: 0.9;
+}
+
+/* Homepage CSS */
+.slogan-text {
+    font-size: 40px;
+    color: #FFC107;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
+
+.slogan {
+    margin-top: 40px;
+}
+
