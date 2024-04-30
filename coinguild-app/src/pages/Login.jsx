@@ -1,9 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/footer';
+import Navbar from '../components/navbar';
+
 const Login = () => {
     return (
         <>
+            <Navbar />
             <div className="container d-flex justify-content-center align-items-center">
                 <form>
                     <div class="form-group">
@@ -15,10 +18,7 @@ const Login = () => {
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
                     </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary submitBtn">Submit</button>
                 </form>
             </div>
 

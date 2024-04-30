@@ -8,7 +8,9 @@ const Navbar = () => {
         <>
             <div class="d-flex justify-content-center">
                 <nav className="navbar navbar-expand-sm ">
-                    <img src="/images/PawGuild.png" style={{ width: '100px' }} />
+                    <Link to='/'>
+                        <img src="/images/PawGuild.png" style={{ width: '100px' }} />
+                    </Link>
                     <Link className="navbar-brand">
                         <button type="button" className="btn btn-warning navbarBtn">About us</button>
                     </Link>
